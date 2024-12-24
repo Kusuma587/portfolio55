@@ -1,0 +1,162 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Background */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.25rem;
+    margin-top: 10px;
+}
+
+/* Navbar Styling */
+nav {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 20px;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Section Styling */
+section {
+    padding: 60px 0;
+    margin: 0 20px;
+}
+
+section h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #f9f9f9;
+}
+
+#skills .skills i {
+    font-size: 3rem;
+    color: #007bff;
+    margin: 0 20px;
+}
+
+#skills .skills i:hover {
+    color: #0056b3;
+}
+
+/* Projects Section */
+#project .project a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+}
+
+#project .project img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#project .project img:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f9f9f9;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.8;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+footer .social-icons a {
+    color: white;
+    font-size: 2rem;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+    color: #f39c12;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #skills .skills i {
+        margin: 20px 10px;
+    }
+
+    #project .project img {
+        width: 100%;
+    }
+}
+    footer.so
